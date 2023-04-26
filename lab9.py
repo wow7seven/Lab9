@@ -10,6 +10,8 @@ app = dash.Dash(__name__)
 
 # Data from New York Times API
 url = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=y4M9uNWA5lFsGGFZshCNGfgJgAkwsGva"
+#  For the lab I used an API key, Which I have deleted now to recreate just replace API_KEY_NYT with your API key according to line below
+# url = "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=API_KEY_NYT"
 response = requests.get(url)
 data = response.json()
 df = pd.json_normalize(data['results']['books'])
