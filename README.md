@@ -6,9 +6,9 @@ The dashboard looks like this:
 
 It has a book detail dropdown option at the top where you can select the book you want to get details of;
 
-You can hover on the graph also to get details of it.
+You can hover on the graph also to get details of the book.
 
-Used New York Times API for the generation, I wanted to display price on the y-axis but since the price for all the books was 0.0 I used weeks on the list as the y-axis dimension.
+Used New York Times API for the generation, Orignally I wanted to display price on the y-axis but since the price for all the books was 0.0, I used weeks on the list as the y-axis dimension.
 
 A display after selecting a book from dropdown.
 
