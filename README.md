@@ -10,3 +10,4 @@ You can hover on the graph also to get details of it.
 
 Used New York Times API for the generation, I wanted to display price on the y-axis but since the price for all the books was 0.0 I used weeks on the list as the y-axis dimension.
 
+![image](https://user-images.githubusercontent.com/100991200/234473166-6a1718b7-6ca5-4746-b792-c1453efadb50.png)
